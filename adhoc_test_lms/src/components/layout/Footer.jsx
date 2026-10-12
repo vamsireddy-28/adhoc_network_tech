@@ -190,9 +190,10 @@ export function Footer() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.619497471326!2d83.38521197464533!3d17.809571183151437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b2fdd660765%3A0xb60e68803c5ce302!2sAdhoc%20Network!5e0!3m2!1sen!2sin!4v1781865483499!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
+                className="block"
                 style={{ border: 0 }}
                 allowFullScreen=""
-                loading="lazy"
+                loading="eager"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Adhoc Network Office Map"
               />
